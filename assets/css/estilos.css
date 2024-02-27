@@ -2953,6 +2953,36 @@ h2.text-center {
   margin-bottom: 30px;
 }
 
+
+/*MAPA*/
+ /* Estilos adicionales pueden ser agregados aquí */
+ #ubicaciones{
+  position: relative;
+ }
+iframe{
+  width:640px; height:480px;
+}
+ #map-container {
+  text-align: center;
+  margin-bottom: 50px;
+}
+#map {
+  width: 100%; /* Ajusta el ancho del mapa según sea necesario */
+  height: 400px; /* Altura predeterminada del mapa */
+  margin: 0 auto; /* Centrar horizontalmente el mapa */
+}
+@media (max-width: 768px) {
+  /* Estilos para dispositivos móviles */
+  #map {
+    width: 100%; /* Ancho del mapa al 100% para dispositivos móviles */
+    height: 300px; /* Altura reducida del mapa para dispositivos móviles */
+  }
+
+  iframe{
+    width:320px; height:320px;
+  }
+}
+
 @media screen and (max-width: 767px) {
 
   .about {

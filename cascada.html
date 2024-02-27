@@ -194,7 +194,8 @@ https://templatemo.com/tm-569-edu-meeting
                     <h2 class="text-center tm-text-primary mb-5">¿Tenés algún proyecto?</h2>
                 </div>
                 <div class="col-lg-4">
-                    <img src="assets/images/img/configuracion (1).png" class="custom-img img-fluid mx-auto d-block" alt="Soluciones Personalizadas">
+                    <img src="assets/images/img/configuracion (1).png" class="custom-img img-fluid mx-auto d-block"
+                        alt="Soluciones Personalizadas">
                     <h4 class="text-center tm-text-primary mb-4">Soluciones Personalizadas:</h4>
                     <p class="textin">
                         Esto implica un proceso de análisis detallado de tus necesidades, diseño de soluciones únicas y
@@ -202,9 +203,10 @@ https://templatemo.com/tm-569-edu-meeting
                         empresa.
                     </p>
                 </div>
-            
+
                 <div class="col-lg-4 mt-5 mt-lg-0">
-                    <img src="assets/images/img/tecnologia.png" class="custom-img img-fluid mx-auto d-block" alt="Implementación de las últimas tecnologías">
+                    <img src="assets/images/img/tecnologia.png" class="custom-img img-fluid mx-auto d-block"
+                        alt="Implementación de las últimas tecnologías">
                     <h4 class="text-center tm-text-primary mb-4">Implementación de las últimas tecnologías:</h4>
                     <p class="textin">
                         Compromiso con la innovación constante y la implementación de las últimas tecnologías en el
@@ -212,7 +214,8 @@ https://templatemo.com/tm-569-edu-meeting
                     </p>
                 </div>
                 <div class="col-lg-4 mt-5 mt-lg-0">
-                    <img src="assets/images/img/la-red.png" class="custom-img img-fluid mx-auto d-block" alt="Colaboración y la Transparencia">
+                    <img src="assets/images/img/la-red.png" class="custom-img img-fluid mx-auto d-block"
+                        alt="Colaboración y la Transparencia">
                     <h4 class="text-center tm-text-primary mb-4">Colaboración y la Transparencia</h4>
                     <p class="textin">
                         En nuestra empresa, creemos en la importancia de la transparencia y la colaboración en cada
@@ -222,10 +225,19 @@ https://templatemo.com/tm-569-edu-meeting
                     </p>
                 </div>
             </div>
-            
 
+        </div>
+        
     </section>
-
+    <section id="ubicaciones">
+        <h2 style="color: white; text-align: center; margin-bottom: 50px;">Ubicaciones</h2>
+        <div id="map-container">
+          <!-- Mapa incrustado usando un iframe -->
+          <iframe style="border-radius: 40px;"
+        src="https://www.google.com/maps/d/embed?mid=1GzxHSjodgxE7UiyuiDCkIxB0KtHmxoE&ehbc=2E312F&noprof=1"
+       ></iframe>
+        </div>
+      </section>
 
     <section class="contact-us" id="contacto">
         <div class="container">
@@ -414,126 +426,126 @@ https://templatemo.com/tm-569-edu-meeting
             }
         });
     </script>
-     <script>
+    <script>
         particlesJS(
-          {
-            "particles": {
-              "number": {
-                "value": 70,
-                "density": {
-                  "enable": true,
-                  "value_area": 800
+            {
+                "particles": {
+                    "number": {
+                        "value": 70,
+                        "density": {
+                            "enable": true,
+                            "value_area": 800
+                        }
+                    },
+                    "color": {
+                        "value": "#ffffff"
+                    },
+                    "shape": {
+                        "type": "circle",
+                        "stroke": {
+                            "width": 0,
+                            "color": "#000000"
+                        },
+                        "polygon": {
+                            "nb_sides": 5
+                        },
+                        "image": {
+                            "src": "img/github.svg",
+                            "width": 100,
+                            "height": 100
+                        }
+                    },
+                    "opacity": {
+                        "value": 0.5,
+                        "random": false,
+                        "anim": {
+                            "enable": false,
+                            "speed": 1,
+                            "opacity_min": 0.1,
+                            "sync": false
+                        }
+                    },
+                    "size": {
+                        "value": 5,
+                        "random": true,
+                        "anim": {
+                            "enable": false,
+                            "speed": 40,
+                            "size_min": 0.1,
+                            "sync": false
+                        }
+                    },
+                    "line_linked": {
+                        "enable": true,
+                        "distance": 150,
+                        "color": "#ffffff",
+                        "opacity": 0.4,
+                        "width": 1
+                    },
+                    "move": {
+                        "enable": true,
+                        "speed": 2,
+                        "direction": "none",
+                        "random": false,
+                        "straight": false,
+                        "out_mode": "out",
+                        "attract": {
+                            "enable": false,
+                            "rotateX": 600,
+                            "rotateY": 1200
+                        }
+                    }
+                },
+                "interactivity": {
+                    "detect_on": "canvas",
+                    "events": {
+                        "onhover": {
+                            "enable": true,
+                            "mode": "repulse"
+                        },
+                        "onclick": {
+                            "enable": true,
+                            "mode": "push"
+                        },
+                        "resize": true
+                    },
+                    "modes": {
+                        "grab": {
+                            "distance": 400,
+                            "line_linked": {
+                                "opacity": 1
+                            }
+                        },
+                        "bubble": {
+                            "distance": 400,
+                            "size": 40,
+                            "duration": 2,
+                            "opacity": 8,
+                            "speed": 3
+                        },
+                        "repulse": {
+                            "distance": 150
+                        },
+                        "push": {
+                            "particles_nb": 4
+                        },
+                        "remove": {
+                            "particles_nb": 2
+                        }
+                    }
+                },
+                "retina_detect": true,
+                "config_demo": {
+                    "hide_card": false,
+                    "background_color": "#b61924",
+                    "background_image": "",
+                    "background_position": "50% 50%",
+                    "background_repeat": "no-repeat",
+                    "background_size": "cover"
                 }
-              },
-              "color": {
-                "value": "#ffffff"
-              },
-              "shape": {
-                "type": "circle",
-                "stroke": {
-                  "width": 0,
-                  "color": "#000000"
-                },
-                "polygon": {
-                  "nb_sides": 5
-                },
-                "image": {
-                  "src": "img/github.svg",
-                  "width": 100,
-                  "height": 100
-                }
-              },
-              "opacity": {
-                "value": 0.5,
-                "random": false,
-                "anim": {
-                  "enable": false,
-                  "speed": 1,
-                  "opacity_min": 0.1,
-                  "sync": false
-                }
-              },
-              "size": {
-                "value": 5,
-                "random": true,
-                "anim": {
-                  "enable": false,
-                  "speed": 40,
-                  "size_min": 0.1,
-                  "sync": false
-                }
-              },
-              "line_linked": {
-                "enable": true,
-                "distance": 150,
-                "color": "#ffffff",
-                "opacity": 0.4,
-                "width": 1
-              },
-              "move": {
-                "enable": true,
-                "speed":2,
-                "direction": "none",
-                "random": false,
-                "straight": false,
-                "out_mode": "out",
-                "attract": {
-                  "enable": false,
-                  "rotateX": 600,
-                  "rotateY": 1200
-                }
-              }
-            },
-            "interactivity": {
-              "detect_on": "canvas",
-              "events": {
-                "onhover": {
-                  "enable": true,
-                  "mode": "repulse"
-                },
-                "onclick": {
-                  "enable": true,
-                  "mode": "push"
-                },
-                "resize": true
-              },
-              "modes": {
-                "grab": {
-                  "distance": 400,
-                  "line_linked": {
-                    "opacity": 1
-                  }
-                },
-                "bubble": {
-                  "distance": 400,
-                  "size": 40,
-                  "duration": 2,
-                  "opacity": 8,
-                  "speed": 3
-                },
-                "repulse": {
-                  "distance": 150
-                },
-                "push": {
-                  "particles_nb": 4
-                },
-                "remove": {
-                  "particles_nb": 2
-                }
-              }
-            },
-            "retina_detect": true,
-            "config_demo": {
-              "hide_card": false,
-              "background_color": "#b61924",
-              "background_image": "",
-              "background_position": "50% 50%",
-              "background_repeat": "no-repeat",
-              "background_size": "cover"
             }
-          }
         )
-      </script>
+    </script>
 </body>
 
 
