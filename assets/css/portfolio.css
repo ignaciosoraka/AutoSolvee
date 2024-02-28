@@ -1121,7 +1121,10 @@ header
     .sobremi .fila .col{
         width: fit-content;
     }
-}
+
+    .codigo{
+      margin: 0 auto;
+}}
 
 /*
 ---------------------------------------------

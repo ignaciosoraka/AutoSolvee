@@ -2152,7 +2152,7 @@ Footer
 */
 .footer {
   text-align: center;
-  margin-top: 140px;
+  margin-top: 40px;
   border-top: 1px solid rgba(250, 250, 250, 0.15);
   padding: 50px 0px;
 }
@@ -2952,6 +2952,158 @@ h2.text-center {
   height: auto; /* Mantiene la proporción de aspecto */
   margin-bottom: 30px;
 }
+
+
+
+/*---------------------------------------
+   comentarios clientes             
+-----------------------------------------*/
+#testimonial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 50px 0;
+  background: url('ruta/de/tu/imagen.jpg') repeat; /* Reemplaza 'ruta/de/tu/imagen.jpg' con la ruta de tu imagen */
+}
+
+
+.testominial-heading {
+  letter-spacing: 1px;
+  margin: 30px 0px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial-heading h1 {
+  font-size: 2.2 rem;
+  font-weight: 500;
+
+  color: #ffffff;
+  padding: 10px 20px;
+
+
+}
+
+.testimonial-heading span {
+  font-size: 1.3rem;
+  color: #dddcdc;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  text-decoration: uppercase;
+}
+
+.testimonial-box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.testimonial-box {
+  width: 500px;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 15px;
+  cursor: pointer;
+  border-radius: 15px
+}
+
+.profile-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 10px;
+
+}
+
+.profile-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.name-user {
+  display: flex;
+  flex-direction: column;
+}
+
+.name-user strong {
+  color: #3d3d3d3d;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+}
+
+.name-user span {
+  color: #979797;
+  font-size: 0.8rem;
+
+}
+
+.reviews {
+  color: #f9d71c;
+}
+
+.box-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+
+}
+
+.client-commet p {
+  font-size: 0.9rem;
+  color: #4b4b4b;
+}
+
+.testimonial-box:hover {
+  transform: translateY(-10px);
+  transition: all ease 0.6s;
+}
+
+@media (max-width:1060px) {
+  .testimonial-box {
+    width: 45%;
+    padding: 10px;
+  }
+}
+
+@media (max-width:790px) {
+  .testimonial-box {
+    width: 100%;
+  }
+
+  .testimonial-heading h1 {
+    font-size: 1.4rem;
+  }
+
+}
+
+@media (max-width:340px) {
+  .box-top {
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+
+  .reviews {
+    margin-top: 10px;
+  }
+}
+
 
 
 /*MAPA*/
