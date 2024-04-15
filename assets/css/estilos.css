@@ -209,7 +209,7 @@ ul {
 }
 
 p {
-  font-size: 14px;
+  
   line-height: 25px;
   color: #2a2a2a;
 }
@@ -233,12 +233,12 @@ body {
 
 
 ::selection {
-  background: #f5a425;
+  background: #344ccf;
   color: #fff;
 }
 
 ::-moz-selection {
-  background: #f5a425;
+  background: #2556f5;
   color: #fff;
 }
 
@@ -1074,7 +1074,7 @@ banner
 
 .main-banner .caption p {
   color: #fff;
-  font-size: 14px;
+  font-size: 18px;
   max-width: 570px;
 }
 
@@ -2004,6 +2004,8 @@ section.our-facts .video {
 section.our-facts .video img {
   padding: 10px 0px;
   margin-bottom: -80px;
+  width: 800px; /* Ajusta el ancho de la imagen al 100% del contenedor */
+  height: auto;
   
 }
 @media (max-width: 1300px) {  
@@ -2016,7 +2018,21 @@ section.our-facts .video img {
     padding: 80px 0px 80px 0px;
   }
 
+  section.our-facts .video img {
+   
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: auto;
+    
+  }
+}
 
+@media (max-width: 768px){
+  section.our-facts .video img {
+   
+    width: 400px; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: auto;
+    
+  }
 }
 
 /* 
@@ -2959,6 +2975,7 @@ h2.text-center {
    comentarios clientes             
 -----------------------------------------*/
 #testimonial {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2966,6 +2983,7 @@ h2.text-center {
   width: 100%;
   padding: 50px 0;
   background: url('ruta/de/tu/imagen.jpg') repeat; /* Reemplaza 'ruta/de/tu/imagen.jpg' con la ruta de tu imagen */
+  
 }
 
 
@@ -3103,6 +3121,85 @@ h2.text-center {
     margin-top: 10px;
   }
 }
+
+
+
+
+/*Preguntas frecuentes*/
+
+.faq-section {
+  max-width: 900px;
+  margin: 80px auto 40px auto;
+  padding: 20px;
+  background-image: url('../images/Gradient-Purple-Wallpaper-1080p.jpg'); /* Agregar la imagen de fondo */
+  background-size: cover; /* Ajustar el tamaño de la imagen */
+  border-radius: 10px;
+  background-color:linear-gradient(-45deg, #1d2751, #449ad5, #3360aa, #1d2751)
+}
+
+
+
+.faq-section h2 {
+  color: #ffffff; /* Cambiamos el color del título */
+  margin-top: 20px; /* Eliminamos el margen superior predeterminado */
+  margin-bottom: 40px; /* Añadimos margen inferior para separación */
+  text-align: center;
+}
+
+.faq-item {
+  margin-bottom: 20px;
+}
+
+.question {
+  cursor: pointer;
+  margin: 0;
+  padding: 15px;
+  background-color: #192142;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Agregamos la sombra */
+}
+
+.question:hover {
+  background-color: #3360aa;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.answer {
+  padding: 15px;
+  background-color: #ffffff;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 18px ;
+  line-height: 1.5;
+
+  overflow: hidden; /* Ocultar el contenido que desborda */
+  max-height: 0; /* Altura máxima inicialmente 0 para ocultar la respuesta */
+  transition: max-height 0.3s ease; /* Transición suave para la altura máxima */
+  visibility: hidden; /* Ocultar la respuesta */
+}
+
+.open .answer {
+  visibility: visible; /* Mostrar la respuesta */
+  max-height: 200px; /* Altura máxima suficiente para mostrar el contenido */
+}
+
+
+.open .question::after {
+  content: "▼";
+  float: right;
+}
+
+.question::after {
+  content: "►";
+  float: right;
+}
+
 
 
 

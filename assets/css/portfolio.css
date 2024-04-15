@@ -228,12 +228,12 @@ global styles
 
 
 ::selection {
-  background: #f5a425;
+  background: #344ccf;
   color: #fff;
 }
 
 ::-moz-selection {
-  background: #f5a425;
+  background: #344ccf;
   color: #fff;
 }
 
