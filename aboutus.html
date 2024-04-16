@@ -160,6 +160,7 @@ https://templatemo.com/tm-569-edu-meeting
       height: 150px;
       /* Establecemos un alto fijo para cada elemento */
       transition: transform 0.3s ease;
+      height: auto; /* Cambiamos la altura a auto */
       /* Agregamos una transición suave */
     }
 
@@ -168,16 +169,17 @@ https://templatemo.com/tm-569-edu-meeting
     }
 
     .grid-item img {
-      max-width: 100px;
-      height: auto;
-    }
+  max-width: 100px; /* Mantenemos el máximo ancho de 100px */
+  width: 100%; /* La imagen ocupa todo el ancho disponible */
+  height: auto; /* La altura se ajusta automáticamente */
+}
 
     .text {
-      padding: 20px;
-      flex: 1;
-      text-align: center;
-      /* Centramos el texto horizontalmente */
-    }
+  padding: 20px;
+  text-align: center;
+  flex-grow: 1; /* Usamos flex-grow en lugar de flex: 1 */
+  min-width: 0; /* Asegura que el texto no se desborde */
+}
 
     .grid-item:hover {
       transform: scale(1.05);
@@ -188,6 +190,7 @@ https://templatemo.com/tm-569-edu-meeting
     @media (max-width: 768px) {
       .grid-container {
         grid-template-columns: 1fr;
+        padding: 20px;
       }
     }
   </style>

@@ -157,6 +157,7 @@ body {
   width: 100%;
   overflow: hidden !important;
 }
+
 .ov-preloader .ov-icon {
   width: 100px;
   height: 100px;
@@ -170,6 +171,7 @@ body {
   background-size: cover;
   margin: -50px 0 0 -50px;
 }
+
 #particles-js {
   position: fixed;
   top: 0;
@@ -181,7 +183,7 @@ body {
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  
+
 }
 
 
@@ -209,7 +211,7 @@ ul {
 }
 
 p {
-  
+
   line-height: 25px;
   color: #2a2a2a;
 }
@@ -338,6 +340,7 @@ body {
   opacity: 0.9;
   background-color: #3360aa;
 }
+
 .main-button-yellow a {
   font-size: 13px;
   color: #fff;
@@ -655,8 +658,8 @@ header
   z-index: 99;
   right: 40px;
   display: none;
-  
- 
+
+
 }
 
 .background-header .main-nav .menu-trigger {
@@ -770,7 +773,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color:#1d2751;
+  color: #1d2751;
 }
 
 @media (max-width: 1200px) {
@@ -792,7 +795,7 @@ header
 
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color:#449ad5 !important;
+    color: #449ad5 !important;
     opacity: 1;
   }
 
@@ -909,6 +912,7 @@ header
     display: flex !important;
   }
 }
+
 /*---------------------------------------
     flotante whatapp             
 -----------------------------------------*/
@@ -928,6 +932,7 @@ header
   z-index: 1000;
   cursor: pointer;
 }
+
 @media (max-width: 767px) {
   .whatsapp-button {
     padding: 4px 12px;
@@ -960,22 +965,24 @@ banner
 */
 #particles-js {
   position: fixeda;
-  
+
   width: 100%;
-  height: 100vh; /* Altura ajustable según la cantidad deseada de partículas */
+  height: 100vh;
+  /* Altura ajustable según la cantidad deseada de partículas */
   background-color: #19273d;
   background-image: url('');
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
- 
+
 }
+
 .main-banner {
- 
+
   position: relative;
   height: 100vh;
- 
-}  
+
+}
 
 
 .main-banner img {
@@ -985,7 +992,7 @@ banner
   width: 100%;
   height: 100%;
   object-fit: cover;
-  
+
 }
 
 /* Agrega estos estilos para que el contenido se muestre encima de la imagen de fondo */
@@ -995,10 +1002,10 @@ banner
   left: 0;
   width: 100%;
   height: 100%;
-  
 
-  
-  
+
+
+
 }
 
 .header-text {
@@ -1007,9 +1014,12 @@ banner
 }
 
 .custom-iframe {
-  width: 100%; /* Ajusta el ancho según sea necesario */
-  height: 400px; /* Ajusta la altura según sea necesario */
-  border: none; /* Quita el borde si no es necesario */
+  width: 100%;
+  /* Ajusta el ancho según sea necesario */
+  height: 400px;
+  /* Ajusta la altura según sea necesario */
+  border: none;
+  /* Quita el borde si no es necesario */
   border-radius: 25px;
 }
 
@@ -1022,7 +1032,7 @@ banner
   max-height: 80vh;
   object-fit: cover;
   height: auto;
- 
+
 }
 
 #bg-video::-webkit-media-controls {
@@ -1031,7 +1041,7 @@ banner
 
 .video-overlay {
   position: absolute;
-  background-color: rgba(31,39,43,0.75);
+  background-color: rgba(31, 39, 43, 0.75);
   top: 0;
   left: 0;
   bottom: 0;
@@ -1089,12 +1099,12 @@ banner
   .main-banner .caption {
     text-align: center;
     position: absolute;
-   
+
     left: 50%;
     transform: translate(-50%, -50%);
   }
 
-  
+
   .main-banner .caption h6 {
     font-weight: 500;
   }
@@ -1103,36 +1113,44 @@ banner
     font-size: 26px;
   }
 
-  .main-banner .caption p{
+  .main-banner .caption p {
     font-size: 15px;
   }
 
 
   .video-overlay {
-    
+
     min-height: 100vh;
     max-width: 100%;
     max-height: 100vh;
   }
+
   .main-button-red2 a {
     font-size: 10px;
-    
+
     padding: 10px 26px;
-   
+
   }
-  .main-button-green a{
+
+  .main-button-green a {
     font-size: 10px;
-    
+
     padding: 10px 26px;
-   
+
   }
 
   #bg-video {
-    
+
     min-height: 100vh;
-    
+
     max-height: 100vh;
-}}
+  }
+
+
+
+
+
+}
 
 
 
@@ -1165,7 +1183,7 @@ About Us Style
 .about-us .about-item h4 {
   font-size: 38px;
   font-weight: 800;
-  color:#fff;
+  color: #fff;
 }
 
 .about-us .about-item h6 {
@@ -1182,7 +1200,7 @@ About Us Style
   color: white;
 }
 
-.software{
+.software {
   width: 90%;
   padding-left: 100px;
 }
@@ -1193,22 +1211,26 @@ About Us Style
     margin-left: 30px;
     margin-bottom: 45px;
   }
+
   .software {
     width: 90%;
     padding-left: 10px;
-}
+  }
+
   .our-portfolio .section-heading,
   .about-us .section-heading,
   .about-us .about-item,
   .about-us p,
-  .about-us .main-green-button, .main-button-red3 {
+  .about-us .main-green-button,
+  .main-button-red3 {
     text-align: center;
   }
-.main-button-red3{
-  margin-bottom: 15px;
-}
 
-  .h1about{
+  .main-button-red3 {
+    margin-bottom: 15px;
+  }
+
+  .h1about {
     padding-top: 200px;
   }
 
@@ -1409,15 +1431,15 @@ Features
   position: relative;
   background-color: #fff;
   border-radius: 50px;
-  box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
 }
 
 .features-item {
   text-align: center;
   padding: 30px;
   border-radius: 50px;
-  background: rgb(255,255,255);
-  background: linear-gradient(105deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 100%);
+  background: rgb(255, 255, 255);
+  background: linear-gradient(105deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 100%);
   transition: background-color .5s;
   -webkit-transition: background-color .5s;
   -o-transition: background-color .5s;
@@ -1425,8 +1447,8 @@ Features
 }
 
 .features-item:hover {
-  background: rgb(51,204,197);
-  background: linear-gradient(105deg, rgba(51,204,197,1) 0%, rgba(8,141,195,1) 100%);
+  background: rgb(51, 204, 197);
+  background: linear-gradient(105deg, rgba(51, 204, 197, 1) 0%, rgba(8, 141, 195, 1) 100%);
 }
 
 .features-item:hover h4 {
@@ -1438,7 +1460,7 @@ Features
 }
 
 .features-item:hover .line-dec {
-  background-color: rgba(255,255,255,0.3);
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .first-feature:hover .icon {
@@ -1510,7 +1532,7 @@ Features
 .features-item .line-dec {
   width: 100px;
   height: 2px;
-  background-color: rgba(51,204,197,0.3);
+  background-color: rgba(51, 204, 197, 0.3);
   margin: 30px auto;
   transition: all 0.5s;
 }
@@ -1530,10 +1552,11 @@ Features
   font-size: 35px;
   padding-left: 15px;
   padding-right: 15px;
- 
+
 }
+
 @media (max-width: 992px) {
- 
+
   .features-item {
     margin-bottom: 45px;
   }
@@ -1545,7 +1568,7 @@ Features
 }
 
 @media (max-width: 765px) {
-  #feature{
+  #feature {
     margin-top: -20px;
   }
 }
@@ -1560,7 +1583,7 @@ upcoming meetings
 */
 
 section.upcoming-meetings {
-  
+
   background-size: 400% 400%;
   animation: gradient-e60a44dc 10s ease-in-out infinite;
   background-position: center center;
@@ -1952,7 +1975,8 @@ our facts
 */
 
 section.our-facts {
-  position: relative; /* Añadir posición relativa para permitir posicionar elementos hijos de manera absoluta */
+  position: relative;
+  /* Añadir posición relativa para permitir posicionar elementos hijos de manera absoluta */
   background-image: url(../images/background_autosolve-12.jpg);
   background-position: center center;
   background-attachment: fixed;
@@ -2009,7 +2033,7 @@ section.our-facts h2 {
 section.our-facts .video {
   text-align: center;
   margin-left: 70px;
- 
+
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -2019,14 +2043,16 @@ section.our-facts .video {
 section.our-facts .video img {
   padding: 10px 0px;
   margin-bottom: -80px;
-  width: 800px; /* Ajusta el ancho de la imagen al 100% del contenedor */
+  width: 800px;
+  /* Ajusta el ancho de la imagen al 100% del contenedor */
   height: auto;
-  
+
 }
-@media (max-width: 1300px) {  
-  .section.our-facts h2{
+
+@media (max-width: 1300px) {
+  .section.our-facts h2 {
     font-size: 23px;
-  } 
+  }
 
   section.our-facts {
     margin-bottom: 0px;
@@ -2034,19 +2060,21 @@ section.our-facts .video img {
   }
 
   section.our-facts .video img {
-   
-    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+
+    width: 100%;
+    /* Ajusta el ancho de la imagen al 100% del contenedor */
     height: auto;
-    
+
   }
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
   section.our-facts .video img {
-   
-    width: 400px; /* Ajusta el ancho de la imagen al 100% del contenedor */
+
+    width: 400px;
+    /* Ajusta el ancho de la imagen al 100% del contenedor */
     height: auto;
-    
+
   }
 }
 
@@ -2068,7 +2096,7 @@ section.contact-us {
 
 section.contact-us2 {
   position: relative;
- 
+
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -2127,7 +2155,7 @@ section.contact-us #contact textarea {
 section.contact-us #contact button {
   font-size: 13px;
   color: #fff;
-  background-color:#1d2751;
+  background-color: #1d2751;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 22px;
@@ -2139,7 +2167,7 @@ section.contact-us #contact button {
 }
 
 section.contact-us #contact button:hover {
-  background-color:#088ec3;
+  background-color: #088ec3;
 }
 
 section.contact-us .right-info {
@@ -2172,10 +2200,11 @@ section.contact-us .right-info ul li h6 {
 
 section.contact-us .right-info ul li span {
   display: block;
-  
+
   color: #fff;
   font-weight: 700;
 }
+
 /*
 ---------------------------------------------
 Footer
@@ -2203,8 +2232,10 @@ Footer
   display: inline-block;
   margin-bottom: 20px;
 }
+
 .footer-logo img {
-  max-width: 300px; /* Ajusta este valor según tus necesidades */
+  max-width: 300px;
+  /* Ajusta este valor según tus necesidades */
   height: auto;
 }
 
@@ -2212,10 +2243,14 @@ Footer
   display: inline-block;
   margin-bottom: 20px;
 }
+
 .footer-nav a:hover {
-  color: #555; /* Cambia el color de fondo al pasar el ratón */
-  color: #fff; /* Cambia el color del texto al pasar el ratón */
+  color: #555;
+  /* Cambia el color de fondo al pasar el ratón */
+  color: #fff;
+  /* Cambia el color del texto al pasar el ratón */
 }
+
 .footer-nav a {
   color: white;
   text-decoration: none;
@@ -2231,6 +2266,7 @@ Footer
   text-decoration: none;
   margin-left: 15px;
 }
+
 /*---------------------------------------
    Social icon             
 -----------------------------------------*/
@@ -2259,7 +2295,7 @@ Footer
 }
 
 .social-icon li a:hover {
-  background:#0b498d;
+  background: #0b498d;
   color: #ffffff;
 }
 
@@ -2271,7 +2307,7 @@ heading page
 ---------------------------------------------
 */
 
-.body{
+.body {
   background-image: url(../images/background_autosolve-12.jpg);
   background-position: center center;
   background-repeat: no-repeat;
@@ -2279,7 +2315,7 @@ heading page
 }
 
 section.heading-page {
- 
+
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2308,7 +2344,7 @@ section.heading-page h2 {
 }
 
 section.heading-page {
- 
+
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2320,13 +2356,18 @@ section.heading-page {
 
 @media (max-width: 992px) {
   section.heading-page {
- 
+
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 150px;
     padding-bottom: 40px;
     text-align: center;
+  }
+
+
+  section.heading-page h2{
+    font-size: 26px;
   }
 }
 
@@ -2337,7 +2378,7 @@ upcoming meetings page
 */
 
 section.meetings-page {
-  
+
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -2549,18 +2590,18 @@ section.meetings-page .pagination ul li a:hover {
 /*---------------------------------------
   ABOUT & TEAM SECTION               
 -----------------------------------------*/
-.about-section{
+.about-section {
   margin-bottom: 100px;
 }
 
 
 .about-image {
-  border-radius:15px;
+  border-radius: 15px;
   display: block;
 }
 
 .team-thumb {
-  border-radius:15px;
+  border-radius: 15px;
   position: relative;
   overflow: hidden;
 }
@@ -2580,18 +2621,19 @@ section.meetings-page .pagination ul li a:hover {
 About
 =======================
 */
-.texto{
+.texto {
   color: white;
   max-width: 1000px;
   margin: 0 auto;
   margin-bottom: 200px;
 }
-.texto2{
+
+.texto2 {
   color: white;
   max-width: 1000px;
   margin: 0 auto;
   margin-bottom: 50px;
- 
+
 }
 
 
@@ -2618,11 +2660,11 @@ About
 }
 
 .second-slide .left-image {
-  padding-right: 0px!important;
+  padding-right: 0px !important;
 }
 
 .second-slide .right-image {
-  padding-left: 0px!important;
+  padding-left: 0px !important;
 }
 
 .second-slide .right-about-text {
@@ -2706,8 +2748,8 @@ CAROUSEL
 }
 
 .owl-carousel-info {
-  background-color:#f0f8ff;
-  box-shadow: 0 1rem 3rem rgba(0,0,0,.8);
+  background-color: #f0f8ff;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, .8);
   position: absolute;
   bottom: 0;
   right: 0;
@@ -2716,7 +2758,7 @@ CAROUSEL
 }
 
 .badge {
-  background-color:#088ec3;
+  background-color: #088ec3;
   font-family: var(--title-font-family);
   border-radius: 15px;
   color: white;
@@ -2760,9 +2802,9 @@ CAROUSEL
 }
 
 .owl-carousel .owl-dots {
-  background-color:white;
-  box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
-  border-radius:15px;
+  background-color: white;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
+  border-radius: 15px;
   display: inline-block;
   margin: auto;
   margin-top: 40px;
@@ -2774,16 +2816,18 @@ CAROUSEL
   margin-top: 40px;
 }
 
-.owl-theme .owl-dots .owl-dot.active span, 
+.owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
-  background:#0b498d;
+  background: #0b498d;
 }
+
 .custom-block-full .social-share {
   position: absolute;
   top: 0;
   right: 0;
   margin: 50px;
 }
+
 /*---------------------------------------
   SOCIAL ICON               
 -----------------------------------------*/
@@ -2796,11 +2840,11 @@ CAROUSEL
   list-style: none;
   display: inline-block;
   vertical-align: top;
-  
+
 }
 
 .fa-brands {
-  background:#0b498d;
+  background: #0b498d;
   border-radius: 50px;
   color: white;
   font-size: 50%;
@@ -2811,11 +2855,11 @@ CAROUSEL
   height: 50px;
   line-height: 40px;
   transition: background 0.2s, color 0.2s;
-  
+
 }
 
 .social-icon-link:hover {
-  background:#088ec3;
+  background: #088ec3;
   color: white;
 }
 
@@ -2833,7 +2877,7 @@ Estilos de Proyectos
 
 .video-overlay2 {
   position: absolute;
-  background-color: rgba(31,39,43,0.75);
+  background-color: rgba(31, 39, 43, 0.75);
   top: 0;
   left: 0;
   bottom: 0;
@@ -2850,7 +2894,8 @@ Estilos de Proyectos
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-align: center; /* Para centrar el texto dentro del contenedor */
+  text-align: center;
+  /* Para centrar el texto dentro del contenedor */
 }
 
 
@@ -2909,18 +2954,24 @@ Estilos de Proyectos
 .about__paragraph {
   line-height: 1.7;
   color: rgb(255, 255, 255);
-  font-size: 18px; /* Reducir el tamaño de fuente */
-  padding: 10px 5px 0px 5px; /* Reducir el padding horizontal */
+  font-size: 18px;
+  /* Reducir el tamaño de fuente */
+  padding: 10px 5px 0px 5px;
+  /* Reducir el padding horizontal */
 }
 
 .about__main {
   padding-top: 10px;
-  display: flex; /* Usar flexbox en lugar de grid */
-  justify-content: center; /* Centrar los elementos */
-  flex-wrap: wrap; /* Permitir que los elementos se envuelvan a la siguiente línea si no caben */
+  display: flex;
+  /* Usar flexbox en lugar de grid */
+  justify-content: center;
+  /* Centrar los elementos */
+  flex-wrap: wrap;
+  /* Permitir que los elementos se envuelvan a la siguiente línea si no caben */
   width: 90%;
   margin: 0 auto;
-  gap: 5px; /* Espacio entre los elementos */
+  gap: 5px;
+  /* Espacio entre los elementos */
 }
 
 
@@ -2939,16 +2990,19 @@ Estilos de Proyectos
 
 .about__title {
   color: rgb(255, 255, 255);
- 
+
 }
-.about__paragrah{
+
+.about__paragrah {
   color: rgb(255, 255, 255);
 }
 
 /* Introduction */
 #introduction {
-  position: relative; /* Asegurarse de que el posicionamiento relativo funcione correctamente */
-  z-index: 1; /* Ajustar el z-index para que la sección esté por encima de las partículas */
+  position: relative;
+  /* Asegurarse de que el posicionamiento relativo funcione correctamente */
+  z-index: 1;
+  /* Ajustar el z-index para que la sección esté por encima de las partículas */
   color: white;
   margin: 80px 0px;
 }
@@ -2956,7 +3010,7 @@ Estilos de Proyectos
 .tm-section-title {
   font-size: 2.6rem;
   font-weight: bold;
-  
+
 }
 
 .tm-intro-text {
@@ -2964,9 +3018,11 @@ Estilos de Proyectos
   line-height: 1.4;
   color: white;
 }
-.textin{
+
+.textin {
   color: white;
 }
+
 .tm-icon {
   display: block;
   margin-bottom: 55px;
@@ -2974,13 +3030,17 @@ Estilos de Proyectos
 }
 
 h2.text-center {
-  margin-top: 50px; /* Ajusta el margen superior según sea necesario */
-  margin-bottom: 50px; /* Ajusta el margen inferior según sea necesario */
+  margin-top: 50px;
+  /* Ajusta el margen superior según sea necesario */
+  margin-bottom: 50px;
+  /* Ajusta el margen inferior según sea necesario */
 }
 
 .custom-img {
-  max-width: 100px; /* Ajusta el ancho máximo al tamaño del contenedor */
-  height: auto; /* Mantiene la proporción de aspecto */
+  max-width: 100px;
+  /* Ajusta el ancho máximo al tamaño del contenedor */
+  height: auto;
+  /* Mantiene la proporción de aspecto */
   margin-bottom: 30px;
 }
 
@@ -2997,8 +3057,9 @@ h2.text-center {
   flex-direction: column;
   width: 100%;
   padding: 50px 0;
-  background: url('ruta/de/tu/imagen.jpg') repeat; /* Reemplaza 'ruta/de/tu/imagen.jpg' con la ruta de tu imagen */
-  
+  background: url('ruta/de/tu/imagen.jpg') repeat;
+  /* Reemplaza 'ruta/de/tu/imagen.jpg' con la ruta de tu imagen */
+
 }
 
 
@@ -3146,18 +3207,23 @@ h2.text-center {
   max-width: 900px;
   margin: 80px auto 40px auto;
   padding: 20px;
-  background-image: url('../images/Gradient-Purple-Wallpaper-1080p.jpg'); /* Agregar la imagen de fondo */
-  background-size: cover; /* Ajustar el tamaño de la imagen */
+  background-image: url('../images/Gradient-Purple-Wallpaper-1080p.jpg');
+  /* Agregar la imagen de fondo */
+  background-size: cover;
+  /* Ajustar el tamaño de la imagen */
   border-radius: 10px;
-  background-color:linear-gradient(-45deg, #1d2751, #449ad5, #3360aa, #1d2751)
+  background-color: linear-gradient(-45deg, #1d2751, #449ad5, #3360aa, #1d2751)
 }
 
 
 
 .faq-section h2 {
-  color: #ffffff; /* Cambiamos el color del título */
-  margin-top: 20px; /* Eliminamos el margen superior predeterminado */
-  margin-bottom: 40px; /* Añadimos margen inferior para separación */
+  color: #ffffff;
+  /* Cambiamos el color del título */
+  margin-top: 20px;
+  /* Eliminamos el margen superior predeterminado */
+  margin-bottom: 40px;
+  /* Añadimos margen inferior para separación */
   text-align: center;
 }
 
@@ -3174,9 +3240,10 @@ h2.text-center {
   border: none;
   border-radius: 8px;
   font-size: 18px;
-  
+
   transition: background-color 0.3s ease;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Agregamos la sombra */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  /* Agregamos la sombra */
 }
 
 .question:hover {
@@ -3190,18 +3257,24 @@ h2.text-center {
   color: #333;
   border: 1px solid #ccc;
   border-radius: 8px;
-  font-size: 18px ;
+  font-size: 18px;
   line-height: 1.5;
 
-  overflow: hidden; /* Ocultar el contenido que desborda */
-  max-height: 0; /* Altura máxima inicialmente 0 para ocultar la respuesta */
-  transition: max-height 0.3s ease; /* Transición suave para la altura máxima */
-  visibility: hidden; /* Ocultar la respuesta */
+  overflow: hidden;
+  /* Ocultar el contenido que desborda */
+  max-height: 0;
+  /* Altura máxima inicialmente 0 para ocultar la respuesta */
+  transition: max-height 0.3s ease;
+  /* Transición suave para la altura máxima */
+  visibility: hidden;
+  /* Ocultar la respuesta */
 }
 
 .open .answer {
-  visibility: visible; /* Mostrar la respuesta */
-  max-height: 200px; /* Altura máxima suficiente para mostrar el contenido */
+  visibility: visible;
+  /* Mostrar la respuesta */
+  max-height: 200px;
+  /* Altura máxima suficiente para mostrar el contenido */
 }
 
 
@@ -3219,31 +3292,43 @@ h2.text-center {
 
 
 /*MAPA*/
- /* Estilos adicionales pueden ser agregados aquí */
- #ubicaciones{
+/* Estilos adicionales pueden ser agregados aquí */
+#ubicaciones {
   position: relative;
- }
-iframe{
-  width:640px; height:480px;
 }
- #map-container {
+
+iframe {
+  width: 640px;
+  height: 480px;
+}
+
+#map-container {
   text-align: center;
   margin-bottom: 50px;
 }
+
 #map {
-  width: 100%; /* Ajusta el ancho del mapa según sea necesario */
-  height: 400px; /* Altura predeterminada del mapa */
-  margin: 0 auto; /* Centrar horizontalmente el mapa */
+  width: 100%;
+  /* Ajusta el ancho del mapa según sea necesario */
+  height: 400px;
+  /* Altura predeterminada del mapa */
+  margin: 0 auto;
+  /* Centrar horizontalmente el mapa */
 }
+
 @media (max-width: 768px) {
+
   /* Estilos para dispositivos móviles */
   #map {
-    width: 100%; /* Ancho del mapa al 100% para dispositivos móviles */
-    height: 300px; /* Altura reducida del mapa para dispositivos móviles */
+    width: 100%;
+    /* Ancho del mapa al 100% para dispositivos móviles */
+    height: 300px;
+    /* Altura reducida del mapa para dispositivos móviles */
   }
 
-  iframe{
-    width:320px; height:320px;
+  iframe {
+    width: 320px;
+    height: 320px;
   }
 }
 
@@ -3251,17 +3336,18 @@ iframe{
 
   .about {
     text-align: center;
-    margin-top:-150px
+    margin-top: -150px
   }
+
   .main-banner .caption2 {
     text-align: center;
     position: absolute;
-   
+
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  
-  
+
+
   .main-banner .caption2 h6 {
     font-weight: 500;
   }
@@ -3269,9 +3355,11 @@ iframe{
   .main-banner .caption2 h2 {
     font-size: 36px;
   }
+
   .tm-intro-text-container {
     padding-left: 65px;
   }
+
   .tm-intro-text-container {
     padding-left: 15px;
     padding-top: 30px;
@@ -3362,7 +3450,7 @@ responsive
 
 @media (max-width: 992px) {
 
-  
+
 
   .main-banner .caption2 h2 {
     margin-top: 10px;
@@ -3378,7 +3466,7 @@ responsive
     margin-top: 60px;
   }
 
-  
+
 
   section.upcoming-meetings .categories {
     margin-right: 0px;
@@ -3422,8 +3510,8 @@ responsive
     color: #1f272b;
   }
 
-  .texto{
-   
+  .texto {
+
     margin-bottom: 50px;
   }
 
