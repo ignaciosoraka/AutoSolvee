@@ -2828,6 +2828,14 @@ CAROUSEL
   margin: 50px;
 }
 
+@media (max-width:786px){
+  .owl-carousel-info {
+    
+    padding: 10px;
+  }
+
+}
+
 /*---------------------------------------
   SOCIAL ICON               
 -----------------------------------------*/

@@ -72,7 +72,7 @@ https://templatemo.com/tm-569-edu-meeting
                 </ul>
               </li>
 
-              <li><a href="./index.html#formulario">Contacto</a></li>
+              <li><a href="./index.html#contacto">Contacto</a></li>
               <li><a href="faq.html">Faq</a></li>
 
             </ul>
@@ -109,7 +109,7 @@ https://templatemo.com/tm-569-edu-meeting
 
 
     <section class="grid-container">
-      <div class="grid-item" >
+      <div class="grid-item">
         <img src="assets/images/Logo_Autosolve-20 (1).png" alt="Imagen 1">
 
         <div class="text">
@@ -117,20 +117,20 @@ https://templatemo.com/tm-569-edu-meeting
           éxito y liderazgo en el mercado.
         </div>
       </div>
-      <div class="grid-item" >
+      <div class="grid-item">
         <img src="assets/images/Logo_Autosolve-20 (1).png" alt="Imagen 2">
         <div class="text">
           <h5>Visión</h5>Ser el líder en soluciones de software y automatización, reconocido por eficacia, calidad y
           capacidad de innovación, impulsando el éxito de nuestros clientes.
         </div>
       </div>
-      <div class="grid-item"  >
+      <div class="grid-item">
         <img src="assets/images/Logo_Autosolve-20 (1).png" alt="Imagen 3">
         <div class="text">
           <h5>Valores</h5>Innovación, calidad, servicio al cliente, eficiencia y aprendizaje continuo.
         </div>
       </div>
-      <div class="grid-item"  >
+      <div class="grid-item">
         <img src="assets/images/Logo_Autosolve-20 (1).png" alt="Imagen 4">
         <div class="text">
           <h5>Compromisos</h5>Establecer asociaciones duraderas con nuestros clientes, manteniéndonos al frente de las
@@ -160,7 +160,8 @@ https://templatemo.com/tm-569-edu-meeting
       height: 150px;
       /* Establecemos un alto fijo para cada elemento */
       transition: transform 0.3s ease;
-      height: auto; /* Cambiamos la altura a auto */
+      height: auto;
+      /* Cambiamos la altura a auto */
       /* Agregamos una transición suave */
     }
 
@@ -169,17 +170,22 @@ https://templatemo.com/tm-569-edu-meeting
     }
 
     .grid-item img {
-  max-width: 100px; /* Mantenemos el máximo ancho de 100px */
-  width: 100%; /* La imagen ocupa todo el ancho disponible */
-  height: auto; /* La altura se ajusta automáticamente */
-}
+      max-width: 100px;
+      /* Mantenemos el máximo ancho de 100px */
+      width: 100%;
+      /* La imagen ocupa todo el ancho disponible */
+      height: auto;
+      /* La altura se ajusta automáticamente */
+    }
 
     .text {
-  padding: 20px;
-  text-align: center;
-  flex-grow: 1; /* Usamos flex-grow en lugar de flex: 1 */
-  min-width: 0; /* Asegura que el texto no se desborde */
-}
+      padding: 20px 20px 20px 20px;
+      /* Añadimos 40px de sangría a la izquierda */
+      text-align: left;
+      /* Alineamos el texto a la izquierda */
+      flex-grow: 1;
+      /* El texto ocupa todo el espacio restante */
+    }
 
     .grid-item:hover {
       transform: scale(1.05);
@@ -192,6 +198,19 @@ https://templatemo.com/tm-569-edu-meeting
         grid-template-columns: 1fr;
         padding: 20px;
       }
+
+      .grid-item img {
+        max-width: 70px;
+
+      }
+
+      .text {
+        font-size: 15px;
+      }
+
+      .mb-2 h4 {
+  font-size: 14px; /* Modifica el tamaño de la fuente según sea necesario */
+}
     }
   </style>
   <!-- =========================
@@ -229,9 +248,9 @@ https://templatemo.com/tm-569-edu-meeting
                 class="about-image img-fluid" alt="">
 
               <div class="team-info">
-                <h4 class="mb-2">
+                <h4 class="mb-2 ">
                   Aldo Gonzalez
-                  
+
                 </h4>
 
                 <span class="badge">COO Software</span>
@@ -330,7 +349,7 @@ https://templatemo.com/tm-569-edu-meeting
                 class="about-image img-fluid" alt="">
 
               <div class="team-info">
-                <h4 class="mb-2">
+                <h4 class="mb-2 ">
                   Gonzalo Roldán
                   <img src="images/verified.png" class="verified-image img-fluid" alt="">
                 </h4>
@@ -391,7 +410,7 @@ https://templatemo.com/tm-569-edu-meeting
 
               </div>
 
-              
+
             </div>
 
             <div class="owl-carousel-info-wrap item">
@@ -400,16 +419,16 @@ https://templatemo.com/tm-569-edu-meeting
               <div class="owl-carousel-info">
                 <h4 class="mb-2">
                   Camila Carrero
-                  <img src="images/verified.png" class="owl-carousel-verified-image img-fluid" alt="">
+                  
                 </h4>
                 <span class="badge">
                   Software </span>
-                
+
 
 
               </div>
 
-              
+
             </div>
 
             <div class="owl-carousel-info-wrap item">
@@ -425,7 +444,7 @@ https://templatemo.com/tm-569-edu-meeting
 
               </div>
 
-              
+
             </div>
 
             <div class="owl-carousel-info-wrap item">
@@ -435,165 +454,145 @@ https://templatemo.com/tm-569-edu-meeting
                 <h4 class="mb-2">Exequiel Gonzalez</h4>
 
                 <span class="badge">
-                  Automatización y Software</span>
-                
+                  Automatización</span>
+                <span class="badge">
+                  Software</span>
               </div>
 
-             
+
             </div>
 
-            
+
             <div class="owl-carousel-info-wrap item">
-              <img
-                src="assets/images/personal/Facundo Vergara.png"
-                class="owl-carousel-image img-fluid" alt="">
+              <img src="assets/images/personal/Facundo Vergara.png" class="owl-carousel-image img-fluid" alt="">
 
               <div class="owl-carousel-info">
                 <h4 class="mb-2">Facundo Vergara</h4>
 
                 <span class="badge">
                   Software</span>
-               
+
               </div>
 
-             
+
             </div>
 
             <div class="owl-carousel-info-wrap item">
-              <img
-                src="assets/images/personal/Geronimo Eberle.png"
-                class="owl-carousel-image img-fluid" alt="">
+              <img src="assets/images/personal/Geronimo Eberle.png" class="owl-carousel-image img-fluid" alt="">
 
               <div class="owl-carousel-info">
                 <h4 class="mb-2">Geronimo Eberle</h4>
 
                 <span class="badge">
                   Software</span>
-               
+
               </div>
 
-             
+
             </div>
             <div class="owl-carousel-info-wrap item">
-              <img
-                src="assets/images/personal/Ignacio Gregorutti.png"
-                class="owl-carousel-image img-fluid" alt="">
+              <img src="assets/images/personal/Ignacio Gregorutti.png" class="owl-carousel-image img-fluid" alt="">
 
               <div class="owl-carousel-info">
                 <h4 class="mb-2">Ignacio Gregorutti</h4>
 
                 <span class="badge">
                   Community Manager</span>
-                
+
               </div>
 
-              
+
             </div>
             <div class="owl-carousel-info-wrap item">
-              <img
-                src="assets/images/personal/Lucas Gonzalez.png"
-                class="owl-carousel-image img-fluid" alt="">
+              <img src="assets/images/personal/Lucas Gonzalez.png" class="owl-carousel-image img-fluid" alt="">
 
               <div class="owl-carousel-info">
                 <h4 class="mb-2">Lucas Gonzalez</h4>
 
                 <span class="badge">
                   Automatización</span>
-                <span class="badge">
-                  Rango</span>
+
               </div>
 
-             
+
             </div>
             <div class="owl-carousel-info-wrap item">
-              <img
-                src="assets/images/personal/Luisina Calvi.png"
-                class="owl-carousel-image img-fluid" alt="">
+              <img src="assets/images/personal/Luisina Calvi.png" class="owl-carousel-image img-fluid" alt="">
 
               <div class="owl-carousel-info">
                 <h4 class="mb-2">Luisina Calvi</h4>
 
                 <span class="badge">
                   Recursos Humanos</span>
-                
+
               </div>
 
-              
+
             </div>
             <div class="owl-carousel-info-wrap item">
-              <img
-                src="assets/images/personal/Marcela Cozzi.png"
-                class="owl-carousel-image img-fluid" alt="">
+              <img src="assets/images/personal/Marcela Cozzi.png" class="owl-carousel-image img-fluid" alt="">
 
               <div class="owl-carousel-info">
                 <h4 class="mb-2">Marcela Cozzi</h4>
 
                 <span class="badge">
                   Software</span>
-                
+
               </div>
 
-              
+
             </div>
             <div class="owl-carousel-info-wrap item">
-              <img
-                src="assets/images/personal/Matias Masat.png"
-                class="owl-carousel-image img-fluid" alt="">
+              <img src="assets/images/personal/Matias Masat.png" class="owl-carousel-image img-fluid" alt="">
 
               <div class="owl-carousel-info">
                 <h4 class="mb-2">Matias Masat</h4>
 
                 <span class="badge">
                   Automatización</span>
-                
+
               </div>
 
-             
+
             </div>
             <div class="owl-carousel-info-wrap item">
-              <img
-                src="assets/images/personal/Nahuel Monzón.png"
-                class="owl-carousel-image img-fluid" alt="">
+              <img src="assets/images/personal/Nahuel Monzón.png" class="owl-carousel-image img-fluid" alt="">
 
               <div class="owl-carousel-info">
                 <h4 class="mb-2">Nahuel Monzon</h4>
 
                 <span class="badge">
                   Automatización</span>
-                
+
               </div>
 
-              
+
             </div>
             <div class="owl-carousel-info-wrap item">
-              <img
-                src="assets/images/personal/Urs Santellan.png"
-                class="owl-carousel-image img-fluid" alt="">
+              <img src="assets/images/personal/Urs Santellan.png" class="owl-carousel-image img-fluid" alt="">
 
               <div class="owl-carousel-info">
                 <h4 class="mb-2">Urs Santellan</h4>
 
                 <span class="badge">
                   Automatización</span>
-              
+
               </div>
 
-             
+
             </div>
             <div class="owl-carousel-info-wrap item">
-              <img
-                src="assets/images/personal/Yamil Abrahan.png"
-                class="owl-carousel-image img-fluid" alt="">
+              <img src="assets/images/personal/Yamil Abrahan.png" class="owl-carousel-image img-fluid" alt="">
 
               <div class="owl-carousel-info">
                 <h4 class="mb-2">Yamil Abrahan</h4>
 
                 <span class="badge">
                   Software</span>
-                
+
               </div>
 
-              
+
             </div>
           </div>
         </div>
@@ -609,29 +608,33 @@ https://templatemo.com/tm-569-edu-meeting
 
 
 
-  <div class="footer">
-    <div class="footer-logo">
-      <!-- Aquí coloca tu logo -->
-      <img src="assets/images/Logo_Autosolve-25.png" alt="Logo">
+  <section class="contact-us2">
+    <div class="footer">
+      <div class="footer-logo">
+        <!-- Aquí coloca tu logo -->
+        <img src="assets/images/Logo_Autosolve-25.png" alt="Logo">
+      </div>
+
+      <div class="footer-nav">
+        <a href="aboutus.html">Nosotros</a>
+        <a href="index.html#automatizacion">Automatizacion</a>
+        <a href="index.html#software">Software</a>
+
+
+      </div>
+
+      <ul class="social-icon">
+
+        <li><a href="https://www.instagram.com/autosolve.ar/" target="_blank" class="fa-brands fa-square-instagram"
+            data-wow-delay="1.3s"></a></li>
+        <li><a href="https://www.facebook.com/autosolve.ar" target="_blank" class="fa-brands fa-facebook"
+            data-wow-delay="1.6s"></a></li>
+
+        <li><a href="https://www.linkedin.com/company/autosolveingenieria/" target="_blank"
+            class="fa-brands fa-linkedin" data-wow-delay="2.2s"></a></li>
+
+      </ul>
     </div>
-
-    <div class="footer-nav">
-      <a href="#">Nosotros</a>
-      <a href="#automatizacion">Automatizacion</a> <a href="#software">Software</a>
-      <a href="#">Ubicacion</a>
-      <a href="#">Contactanos</a>
-    </div>
-
-    <ul class="social-icon">
-      <li><i class="c-icon c-social-icon--fb c-icon c-icon--facebook-circle" aria-hidden="true"></i>
-      </li>
-      <li><a href="#" class="fa-brands fa-square-instagram" data-wow-delay="1.3s"></a></li>
-      <li><a href="#" class="fa-brands fa-facebook" data-wow-delay="1.6s"></a></li>
-
-      <li><a href="#" class="fa-brands fa-linkedin" data-wow-delay="2.2s"></a></li>
-
-    </ul>
-  </div>
   </section>
 
   <!-- Scripts -->
