@@ -684,7 +684,7 @@ header
 .background-header .main-nav .menu-trigger span,
 .background-header .main-nav .menu-trigger span:before,
 .background-header .main-nav .menu-trigger span:after {
-  background-color: #ffffff;
+  background-color: #000000;
 }
 
 .header-area .main-nav .menu-trigger span:before,
@@ -1095,16 +1095,22 @@ banner
 
 @media screen and (max-width: 767px) {
 
+ 
 
   .main-banner .caption {
+    
     text-align: center;
     position: absolute;
-
+   width: 85%;
     left: 50%;
     transform: translate(-50%, -50%);
+    
   }
 
-
+  .button-container{
+    justify-content: center;
+  }
+  
   .main-banner .caption h6 {
     font-weight: 500;
   }
