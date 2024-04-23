@@ -952,7 +952,8 @@ header
     background: linear-gradient(to top, rgba(30, 35, 38, 0.514), rgba(30, 35, 38, 0.116)),
     url(../images/background_autosolve-12.jpg);
     background-size: cover;
-    height: 100vh;
+    
+
     color: #fff;
     display: flex;
     align-items: center;
@@ -962,8 +963,8 @@ header
     background-color: #1e2326;
     max-width: 350px;
     margin: auto;
-    margin-top: 110px;
-  
+    margin-top: 120px;
+  margin-bottom: 50px;
     text-align: center;
     border-radius: 40px;
 }
