@@ -1268,7 +1268,7 @@ services
   border-radius: 20px;
   text-align: center;
   color: #fff;
-  padding: 40px;
+  padding: 20px;
 
 
 }
@@ -1337,8 +1337,8 @@ services
 }
 
 .services .item h4 {
-  margin-top: 25px;
-  margin-bottom: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   font-size: 18px;
   font-weight: 600;
 }
