@@ -1016,7 +1016,7 @@ banner
 .custom-iframe {
   width: 100%;
   /* Ajusta el ancho según sea necesario */
-  height: 400px;
+  height: 300px;
   /* Ajusta la altura según sea necesario */
   border: none;
   /* Quita el borde si no es necesario */
@@ -1255,7 +1255,7 @@ services
 */
 
 .services {
-  margin-top: -135px;
+  margin-top: -110px;
   position: absolute;
   width: 100%;
 }
@@ -1544,6 +1544,7 @@ Features
 }
 
 .features-item p {
+  font-size: 13px;
   position: relative;
   margin-top: 0px;
   transition: all 0.5s;
@@ -2049,7 +2050,7 @@ section.our-facts .video {
 section.our-facts .video img {
   padding: 10px 0px;
   margin-bottom: -80px;
-  width: 800px;
+  width: 600px;
   /* Ajusta el ancho de la imagen al 100% del contenedor */
   height: auto;
 
@@ -3147,7 +3148,7 @@ h2.text-center {
 }
 
 .testimonial-box {
-  width: 500px;
+  width: 400px;
   box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
   background-color: #ffffff;
   padding: 20px;
