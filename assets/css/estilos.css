@@ -1207,8 +1207,12 @@ About Us Style
 }
 
 .software {
-  width: 90%;
+  width: 100%;
   padding-left: 100px;
+}
+.automatizacion {
+  width: 100%;
+  padding-right: 100px;
 }
 
 @media (max-width: 992px) {
@@ -2894,8 +2898,9 @@ Estilos de Proyectos
 
 
 .video-overlay2 {
+  
   position: absolute;
-  background-color: rgba(31, 39, 43, 0.75);
+  background-color: rgba(31, 39, 43, 0.575);
   top: 0;
   left: 0;
   bottom: 0;
