@@ -62,14 +62,14 @@
                   <li><a href="invap.html">INVAP</a></li>
                   <li><a href="rubinzal.html">Rubinzal Ferrer</a></li>
                   <li><a href="cascada.html">CaSCADA</a></li>
-                  <li><a href="">Dartronics</a></li>
+                  <li><a href="dartronics.html">Dartronics</a></li>
                   <li><a href="edars.html">EDARS</a></li>
 
                   <li><a href="proyectos.html">+ Ver todos</a></li>
                 </ul>
               </li>
 
-              <li class="scroll-to-section"><a href="#contacto" onclick="irAContacto()">Contacto</a></li>
+              <li><a href="#contacto">Contacto</a></li>
               <li><a href="faq.html">Faq</a></li>
 
             </ul>
@@ -146,7 +146,7 @@
             <div class="item service-card" data-title="Best Education">
               <a href="invap.html">
                 <div class="icon">
-                  <img src="assets/images/proyectos/INVAP-20240417T195501Z-001/INVAP/2560px-Logo_INVAP.svg.png" alt="">
+                  <img src="assets/images/proyectos/INVAP-20240417T195501Z-001/INVAP/portada (2).jpg" alt="">
                 </div>
                 <div class="down-content">
                   <h4>INVAP</h4>
@@ -409,7 +409,7 @@
 
             <div class="name-user">
               <strong>Ken Darrow</strong>
-              <span>Australia</span>
+              <span>Dartronics Inc - USA</span>
 
             </div>
           </div>
@@ -467,8 +467,8 @@
 
 
             <div class="name-user">
-              <strong>Christopher Rice</strong>
-              <span>USA</span>
+              <strong>Federico Ferrer</strong>
+              <span>Rubinzal Ferrer SI - Argentina</span>
 
 
             </div>
@@ -485,7 +485,7 @@
 
         <div class="client-commet">
 
-          "Great talent and unsurpassed client loyalty. The results speak for themselves"
+          "Unexcelente equipo de trabajo, muy profesional.”
         </div>
       </div>
 
@@ -545,7 +545,7 @@
                     <h6>04</h6>
                   </div>
                   <div class="icon"></div>
-                  <h4>Actualización Continua:</h4>
+                  <h4>Actualización:</h4>
                   <div class="line-dec"></div>
                   <p>Garantizamos la actualización constante, adaptándonos a cualquier dispositivo que utilices. Nuestro
                     compromiso con el cliente es brindar soluciones que aseguren una experiencia destacada.</p>
@@ -565,7 +565,7 @@
         <div class="col-lg-9 align-self-center">
           <div class="row">
             <div class="col-lg-12">
-              <form id="contact" action="" method="post">
+              <form id="contact" action="correos.php" method="post">
                 <div class="row">
                   <div class="col-lg-12">
                     <h2>Contactate con nosotros</h2>
@@ -577,7 +577,7 @@
                   </div>
                   <div class="col-lg-4">
                     <fieldset>
-                      <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="Email"
+                      <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="Email*"
                         required="">
                     </fieldset>
                   </div>
@@ -593,7 +593,7 @@
                   </div>
                   <div class="col-lg-12">
                     <fieldset>
-                      <textarea name="message" type="text" class="form-control" id="message" placeholder="Mensaje"
+                      <textarea name="message" type="text" class="form-control" id="message" placeholder="Mensaje*"
                         required=""></textarea>
                     </fieldset>
                   </div>
@@ -611,16 +611,16 @@
           <div class="right-info">
             <ul>
               <li>
-                <h6>Numero</h6>
+                <h6>Número</h6>
                 <span>+54 9 343 500-9953</span>
               </li>
               <li>
-                <h6>Direccion de correo</h6>
-                <span>rrhh@autosolve.com.ar</span>
+                <h6>Dirección de correo</h6>
+                <span>info@autosolve.com.ar</span>
               </li>
               <li>
-                <h6>Direccion</h6>
-                <span>Bolougne sur mer 447, Paraná, Entre Ríos, Argentina </span>
+                <h6>Dirección</h6>
+                <span>Boulogne Sur Mer 447 - Paraná, Entre Ríos, Argentina</span>
               </li>
 
             </ul>
@@ -628,25 +628,6 @@
         </div>
       </div>
     </div>
-    <script>
-      // Función para manejar el comportamiento del enlace
-      function irAContacto() {
-        // Obtener el desplazamiento (offset) del elemento con el id "contacto"
-        var contactoOffset = document.getElementById("contacto").offsetTop;
-
-        // Calcular la posición a la que queremos desplazarnos restando unos píxeles
-        var nuevaPosicion = contactoOffset - 100; // Puedes ajustar el número de píxeles según tu preferencia
-
-        // Hacer scroll suave hacia la nueva posición
-        window.scrollTo({
-          top: nuevaPosicion,
-          behavior: "smooth"
-        });
-      }
-    </script>
-
-
-
   </section>
 
   <section class="contact-us2">
