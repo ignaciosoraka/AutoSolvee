@@ -1255,7 +1255,13 @@ About Us Style
   }
 
 }
+@media (max-width: 765px) {
 
+  .automatizacion {
+    width: 90%;
+    padding-right: 0px;
+  }
+}
 
 /*
 ---------------------------------------------
