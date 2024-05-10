@@ -1278,8 +1278,8 @@ services
   text-align: center;
   color: #fff;
   padding: 20px;
-  width: 410px; /* Ancho fijo */
-  height: 310px; /* Altura fija */
+  width: 360px; /* Ancho fijo */
+  height: 290px; /* Altura fija */
 }
 .services .item::before,
 .services .item::after {
