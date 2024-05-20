@@ -2932,6 +2932,34 @@ Estilos de Proyectos
 */
 
 
+/* 
+-----
+Rubinzal
+-----
+*/
+
+.video-container {
+  max-width: 350px; /* Ajusta el tamaño según tus necesidades */
+  margin: 0 auto; /* Centra el video horizontalmente dentro del contenedor */
+}
+
+.custom-video {
+  width: 250px;
+  height: auto;
+  border: 1px solid #ccc; /* Borde opcional para darle mejor presentación */
+  border-radius: 8px; /* Esquinas redondeadas opcionales */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra opcional para darle profundidad */
+}
+
+@media (max-width:786px){
+  .row{
+    padding-left: 0px !important;
+  }
+.video-container {
+  max-width: 250px; /* Ajusta el tamaño según tus necesidades */
+  margin: 0 auto; /* Centra el video horizontalmente dentro del contenedor */
+}
+}
 
 
 .video-overlay2 {
@@ -3068,7 +3096,7 @@ Estilos de Proyectos
 }
 
 .tm-section-title {
-  font-size: 2.6rem;
+  font-size: 2rem;
   font-weight: bold;
 
 }
@@ -3079,10 +3107,17 @@ Estilos de Proyectos
   color: white;
 }
 
+
+
 .textin {
   text-align: center;
   color: white;
+ 
+}
 
+.text-container {
+  max-width: 600px; /* Ajusta el ancho máximo según tus necesidades */
+  margin: 0 auto; /* Centra el contenedor del texto dentro de la columna */
 }
 
 .tm-icon {
@@ -3113,6 +3148,7 @@ h2.text-center {
 @media (max-width: 768px) {
   .agrandar-imagen {
       width: 100% !important; /* Cambia el tamaño de la imagen para dispositivos móviles */
+      margin-bottom: 75px;
   }
 }
 
@@ -3458,7 +3494,7 @@ width: 80%;
 
   .tm-intro-text-container {
     padding-left: 15px;
-    padding-top: 30px;
+   margin-top: -50px;
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
