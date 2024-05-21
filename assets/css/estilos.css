@@ -1684,9 +1684,7 @@ section.upcoming-meetings .categories ul li a {
   transition: all .3s;
 }
 
-section.upcoming-meetings .categories ul li a:hover {
-  color: #a12c2f;
-}
+
 
 section.upcoming-meetings .categories .main-button-red {
   border-top: 1px solid #eee;
@@ -1700,7 +1698,13 @@ section.upcoming-meetings .categories .main-button-red a {
 }
 
 .meeting-item {
-  margin-bottom: 30px;
+  height: 560px; /* Establece una altura fija, ajusta según tus necesidades */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 20px; /* Añade padding si es necesario */
+  
 }
 
 .meeting-item .thumb {
@@ -1732,6 +1736,10 @@ section.upcoming-meetings .categories .main-button-red a {
   padding: 30px;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
+  flex-grow: 1; /* Permite que este elemento crezca para llenar el espacio disponible */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .meeting-item .down-content .date {
@@ -1741,12 +1749,7 @@ section.upcoming-meetings .categories .main-button-red a {
   margin-right: 20px;
 }
 
-.meeting-item .down-content .date h6 {
-  font-size: 13px;
-  text-transform: uppercase;
-  font-weight: 600;
-  color: #a12c2f;
-}
+
 
 .meeting-item .down-content .date span {
   display: block;
@@ -1760,13 +1763,16 @@ section.upcoming-meetings .categories .main-button-red a {
   color: #1f272b;
   font-weight: 600;
   display: inline-block;
-  margin-bottom: 15px;
+   /* Ajusta el margen inferior según sea necesario */
+  margin-top: 0; /* Asegura que no haya margen superior */
 }
 
 .meeting-item .down-content p {
-  margin-left: 50px;
+
   color: #1f272b;
   font-size: 14px;
+  margin-top: 5px; /* Asegura que no haya margen superior */
+  flex-grow: 1; /* Permite que el párrafo crezca para llenar el espacio disponible */
 }
 
 
