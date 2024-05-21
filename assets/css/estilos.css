@@ -1273,6 +1273,7 @@ services
   margin-top: -110px;
   position: absolute;
   width: 100%;
+ 
 }
 
 .services .item {
@@ -1284,6 +1285,7 @@ services
   text-align: center;
   color: #fff;
   padding: 20px;
+  margin-left: 20px;
   width: 360px; /* Ancho fijo */
   height: 300px; /* Altura fija */
 }
@@ -2752,7 +2754,9 @@ About
 /*---------------------------------------
 CAROUSEL        
 -----------------------------------------*/
-
+.owl-item{
+  margin-right: 100px;
+}
 
 .owl-carousel {
   text-align: center;
@@ -3062,6 +3066,10 @@ Rubinzal
   /* Espacio entre los elementos */
 }
 
+@media (max-width:786px){
+  .about__main {
+    padding-top: 200px;}
+}
 
 .about__icons {
   display: grid;
@@ -3148,7 +3156,7 @@ h2.text-center {
 @media (max-width: 768px) {
   .agrandar-imagen {
       width: 100% !important; /* Cambia el tamaño de la imagen para dispositivos móviles */
-      margin-bottom: 75px;
+      margin-bottom: 15px;
   }
 }
 
@@ -3168,6 +3176,7 @@ h2.text-center {
 
 .tm-intro-text{
   font-size:16px;
+ 
 }
 
 }
