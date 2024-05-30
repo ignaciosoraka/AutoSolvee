@@ -1186,7 +1186,64 @@ Footer
     color: white;
     text-decoration: none;
     margin-left: 15px;
-  }/*---------------------------------------
+  }
+  
+  
+  .footer-logo img {
+    max-width: 300px;
+    /* Ajusta este valor según tus necesidades */
+    height: auto;
+  }
+  .footer-logo2 {
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-right: 20px;
+  }
+  
+  .footer-logo2 img {
+    max-width: 120px;
+    /* Ajusta este valor según tus necesidades */
+    height: auto;
+  }
+  
+  
+  @media (max-width:786px){
+    .h1about{
+      font-size: 28px;
+    }
+    .about-us .about-item h4{
+      font-size: 28px;
+    }
+    .h1about2{
+      font-size: 25px;
+    }
+    section.our-facts h2{
+      font-size: 28px;
+    }
+    .footer-logo img {
+      max-width: 150px;
+      /* Ajusta este valor según tus necesidades */
+      height: auto;
+    }
+    .footer-logo2 {
+      display: inline-block;
+      margin-bottom: 20px;
+      
+    }
+    
+    .footer-logo2 img {
+      max-width: 60px;
+      /* Ajusta este valor según tus necesidades */
+      height: auto;
+    }
+    
+  }
+  
+  
+  
+  
+  
+  /*---------------------------------------
    Social icon             
 -----------------------------------------*/
 .social-icon {
