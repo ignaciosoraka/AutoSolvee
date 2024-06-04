@@ -1447,7 +1447,20 @@ services
   border-radius: 50%;
   line-height: 50px;
 }
+@media (max-width:786px){
+  
+  .services .item {
+  
+    width: 320px; /* Ancho fijo */
+    height: 285px; /* Altura fija */
+  }
 
+
+.services .item p {
+  color: #fff;
+  font-size: 11px;
+}
+}
 /* 
 ---------------------------------------------
 Features
