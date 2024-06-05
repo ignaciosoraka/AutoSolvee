@@ -1448,9 +1448,10 @@ services
   line-height: 50px;
 }
 @media (max-width:786px){
-  
+
+
   .services .item {
-  
+margin: 0 auto;
     width: 320px; /* Ancho fijo */
     height: 285px; /* Altura fija */
   }
