@@ -21,8 +21,8 @@ $mail->SMTPSecure = 'tls';
 $mail->Port = 587;
 
 // Parámetros de envío
-$mail->setFrom('ignaciosoraka@gmail.com', 'AutoSolve');
-$mail->addAddress('ignaciosoraka@gmail.com', 'AutoSolve');
+$mail->setFrom('info@autosolve.com.ar', 'AutoSolve');
+$mail->addAddress('info@autosolve.com.ar', 'AutoSolve');
 $mail->isHTML(true);
 
 // Limpiar los datos del formulario
