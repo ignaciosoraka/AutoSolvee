@@ -32,6 +32,22 @@ $asunto = isset($_POST['subject']) ? htmlspecialchars($_POST['subject']) : 'No e
 $empresa = isset($_POST['empresa']) ? htmlspecialchars($_POST['empresa']) : 'No especificado';
 $mensaje = isset($_POST['message']) ? htmlspecialchars($_POST['message']) : 'No especificado';
 
+// Validacion de Captcha
+
+$ip = $_SERVER['REMOTE_ADDR'];
+$captcha = $_POST['g-recaptcha-response'];
+$secretkey = "6LfejPIpAAAAAJ_73G-B7EkUGnO7afICFfbrm2aY";
+
+$respuesta = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=$secretkey&response=$captcha&remoteip=$ip");
+
+$atributos = json_decode($respuesta, TRUE);
+
+if(!$atributos['success']){
+    $errors[] = 'Verificar captcha'
+
+}
+
+
 // Personalizar el asunto del correo electrónico
 $asuntoCorreo = "Consulta de " . $nombre;
 
