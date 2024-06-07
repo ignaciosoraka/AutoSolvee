@@ -10,15 +10,14 @@ if ($_SERVER['REQUEST_METHOD'] != 'POST') {
 require 'phpmailer/PHPMailerAutoload.php';
 
 $mail = new PHPMailer;
-
 // Configuración SMTP
 $mail->isSMTP();
-$mail->Host = 'smtp.gmail.com';
+$mail->Host = 'c2100193.ferozo.com';
 $mail->SMTPAuth = true;
 $mail->Username = 'smtp@autosolve.com.ar';
-$mail->Password = 'hqyycwyzurppkzco';
-$mail->SMTPSecure = 'tls';
-$mail->Port = 587;
+$mail->Password = '5M7P4u7o5@LV3';
+$mail->SMTPSecure = 'ssl';
+$mail->Port = 465;
 
 // Parámetros de envío
 $mail->setFrom('info@autosolve.com.ar', 'AutoSolve');
